@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>My App</title>
+  <link rel="stylesheet" href="css/game.css" />
+</head>
+
+<body>
+    <div class="header">
+      <img src="img/layout/logo.png">
+      <h1>Memory Monsters</h1>
+      <h2 id="user-name"></h2>
+    </div>
+    <div class="card" data-card="1" onclick="cardClicked(this)">
+      <img src="img/cards/1.png">
+      <img class="back" src="img/cards/back.png">
+    </div>
+    
+    <div class="card" data-card="1" onclick="cardClicked(this)">
+      <img src="img/cards/1.png">
+      <img class="back" src="img/cards/back.png">
+    </div>
+    
+    <div class="card" data-card="5" onclick="cardClicked(this)">
+      <img src="img/cards/5.png">
+      <img class="back" src="img/cards/back.png">
+    </div>
+    <div class="card" data-card="5" onclick="cardClicked(this)">
+      <img src="img/cards/5.png">
+      <img class="back" src="img/cards/back.png">
+    </div>
+    </div>
+    <div class="card" data-card="3" onclick="cardClicked(this)">
+        <img src="img/cards/3.png">
+        <img class="back" src="img/cards/back.png">
+    </div>
+    <div class="card" data-card="2" onclick="cardClicked(this)">
+        <img src="img/cards/2.png">
+        <img class="back" src="img/cards/back.png">
+    </div>
+    <div class="card" data-card="4" onclick="cardClicked(this)">
+        <img src="img/cards/4.png">
+        <img class="back" src="img/cards/back.png">
+    </div>
+    <div class="card" data-card="3" onclick="cardClicked(this)">
+        <img src="img/cards/3.png">
+        <img class="back" src="img/cards/back.png">
+    </div>
+   
+    <div class="card" data-card="4" onclick="cardClicked(this)">
+        <img src="img/cards/4.png">
+        <img class="back" src="img/cards/back.png">
+    </div>
+    <div class="card" data-card="2" onclick="cardClicked(this)">
+        <img src="img/cards/2.png">
+        <img class="back" src="img/cards/back.png">
+    </div>
+  
+    <div class="buttons">
+  <a id="button" href="#" onclick="rePlay()">Play Again!</a>
+  <a href="#" onclick="changeUserName()">change username</a>
+  <a href="/index.html">Return to my page</a>
+  
+  <a id="hide-show" href="#" onclick="hideShowCards()">show</a>
+    </div>
+  <script src="js/game.js"></script>
+</body>
+
+</html>

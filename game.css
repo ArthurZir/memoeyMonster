@@ -1,0 +1,76 @@
+.header {
+    background-color: rgba(187, 35, 35, 0.555);
+    padding: 30px;
+    border-bottom: 10px solid blueviolet;
+    color:darkcyan;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+#user-name {
+color:black;
+text-decoration: underline;
+font-size: 1em;
+}
+
+.header img {
+    float:right;
+}
+
+.card {
+    background-color: yellow;
+    height: 165px;
+    width: 165px;    
+    float: left;
+    margin: 15px;
+
+}
+
+.card img {
+    position: absolute;
+    border: 3px solid black;
+    border-radius: 10px;
+}
+
+.flipped .back {
+    display: none;
+}
+
+#button {
+    display: none;
+    background-color: lightcoral;
+    color: rgb(255, 230, 0);
+    font-size: 32px;
+    font-weight: 600;
+    transition-duration: 300ms;
+    transition-timing-function: ease-in;
+}
+
+#button:hover {
+    font-size: 46px;
+    color: lightcoral;
+    background-color: rgb(255, 230, 0);
+
+}
+
+a { 
+    float: left;
+    text-decoration: none;
+    color: black;
+    font-size: 26px;
+    margin: 55px 35px;
+    padding: 25px;
+    background-color: yellowgreen;
+    text-decoration: none;
+    color: black;
+    border: 2px solid black;
+    border-radius: 50px;
+    text-align: center;  
+}
+
+.page-link a {
+    color: black;
+    font-size: 18px;
+    float: left;
+}
+
